@@ -1,38 +1,142 @@
-.App {
+.container {
+  width: 100%;
+}
+
+.content {
+  font-family: "Playfair Display";
+}
+
+/* Header */
+.navBar {
+  font-family: '"Square Sans Text VF","Square Sans Text",helvetica,arial,sans-serif';
+  width: 100%;
+  height: 70px;
+  border: 3px solid green;
+}
+
+.navItems {
+  margin: auto;
+}
+
+.nav-Item {
+  font-size: 20px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-Item a{
+  color:rgb(175, 175, 175);
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.nav-Item:hover{
+  border-bottom: 1px solid black;
+}
+.nav-Item a:hover{
+  color: black;
+  
+}
+
+.logoDiv {
+  width: 100%;
+  border: 3px solid green;
+}
+
+.logoImg {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+/* Home Content */
+.home-container {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-title{
+  color:rgb(92, 92, 92);
+  text-align: center;
+  font-family:  'Verdana';
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+
+.home-image-content {
+  margin:auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  margin-bottom: 50px;
+
+}
+
+.home-image-item{
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+.home-image-background {
+  margin: auto;
+  background-size: cover;
+  background-position: center 90%;
+  background-image: url("images/testImage.png");
+  height: 350px;
+  width: 450px;
+  border-radius: 25px;
+}
+
+.image-wrapper {
+  opacity: 0.2;
+  background-color: black;
+  position: absolute;
+  height: 350px;
+  width: 450px;
+  border-radius: 25px;
+  transition: opacity 0.8s;
+}
+
+.image-wrapper:hover{
+  opacity: 0.8;
+}
+
+.image-wrapper-content{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.image-wrapper-text{
+  font-family: "Playfair Display";
+  color: aliceblue;
+  font-size: 50px;
+  margin-top: 35%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-thankyoucard{
+  margin-top: 250px;
+  margin-bottom: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-thankyoucard-image{
+  margin-left: auto;
+  background-size: cover;
+  background-image: url("images/thankyoucard.png");
+  height: 500px;
+  width: 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-thankyoucard-title{
+  margin:auto;
+  color:rgb(92, 92, 92);
+  font-family: "Playfair Display";
 }
