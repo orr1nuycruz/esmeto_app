@@ -11,7 +11,6 @@
   font-family: '"Square Sans Text VF","Square Sans Text",helvetica,arial,sans-serif';
   width: 100%;
   height: 70px;
-  border: 3px solid green;
 }
 
 .navItems {
@@ -27,23 +26,21 @@
   transition: border-bottom 0.5s;
 }
 
-.nav-Item a{
-  color:rgb(175, 175, 175);
+.nav-Item a {
+  color: rgb(175, 175, 175);
   text-decoration: none;
   transition: color 1s;
 }
 
-.nav-Item:hover{
+.nav-Item:hover {
   border-bottom: 1px solid black;
 }
-.nav-Item a:hover{
+.nav-Item a:hover {
   color: black;
-  
 }
 
 .logoDiv {
   width: 100%;
-  border: 3px solid green;
 }
 
 .logoImg {
@@ -54,42 +51,42 @@
 
 /* Home Content */
 .home-container {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
+  /* border: 3px solid green; */
 }
 
-.home-title{
-  color:rgb(92, 92, 92);
-  text-align: center;
-  font-family:  'Verdana';
+.home-title {
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
   text-transform: uppercase;
-  margin-bottom: 30px;
 }
-
 
 .home-image-content {
-  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 60%;
+  width: 95%;
   margin-bottom: 50px;
-
+  /* border: 3px solid green; */
 }
 
-.home-image-item{
+.home-image-item {
   position: relative;
   margin: auto;
   margin-bottom: 10px;
-
 }
 .home-image-background {
   margin: auto;
   background-size: cover;
   background-position: center 90%;
   background-image: url("images/testImage.png");
-  height: 350px;
-  width: 450px;
+  height: 400px;
+  width: 550px;
   border-radius: 25px;
 }
 
@@ -97,21 +94,21 @@
   opacity: 0.2;
   background-color: black;
   position: absolute;
-  height: 350px;
-  width: 450px;
+  height: 400px;
+  width: 550px;
   border-radius: 25px;
   transition: opacity 0.8s;
 }
 
-.image-wrapper:hover{
+.image-wrapper:hover {
   opacity: 0.8;
 }
 
-.image-wrapper-content{
+.image-wrapper-content {
   display: grid;
   grid-template-columns: 1fr;
 }
-.image-wrapper-text{
+.image-wrapper-text {
   font-family: "Playfair Display";
   color: aliceblue;
   font-size: 50px;
@@ -119,24 +116,55 @@
   text-align: center;
 }
 
-.home-thankyoucard{
-  margin-top: 250px;
+.home-thankyoucard {
+  margin-top: 100px;
   margin-bottom: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
 
-.home-thankyoucard-image{
-  margin-left: auto;
+.home-thankyoucard-image {
+  margin: auto;
   background-size: cover;
   background-image: url("images/thankyoucard.png");
   height: 500px;
   width: 700px;
 }
 
-.home-thankyoucard-title{
-  margin:auto;
-  color:rgb(92, 92, 92);
+.home-thankyoucard-title {
+  margin: auto;
+  color: rgb(92, 92, 92);
+  font-family: "Playfair Display";
+}
+
+.deals-title {
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.deals-content {
+  margin-top: 100px;
+  margin-bottom: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.deals-image {
+  margin: auto;
+  background-size: cover;
+  background-image: url("images/totebag.png");
+  height: 600px;
+  width: 550px;
+  border-radius: 25px;
+}
+
+.deals-content-text {
+  width:80%;
+  margin: auto;
+  color: rgb(92, 92, 92);
   font-family: "Playfair Display";
 }
