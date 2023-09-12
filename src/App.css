@@ -168,3 +168,43 @@
   color: rgb(92, 92, 92);
   font-family: "Playfair Display";
 }
+
+/* about page */
+.about-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-terms-title{
+  margin-bottom: 50px;
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+  text-align: center;
+}
+.about-terms-subtitle{
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+}
+
+.about-terms-email{
+  text-align: center;
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+}
+
+
+.about-terms-listitem{
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* contact us */
