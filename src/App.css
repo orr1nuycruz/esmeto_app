@@ -208,3 +208,56 @@
 
 
 /* contact us */
+.contact-container{
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-title{
+  margin-bottom: 20px;
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+  text-align: center;
+}
+
+.contact-input{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contact-input input[type=text] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(175, 175, 175);
+  border-color: rgb(175, 175, 175);
+  width: 50%;
+  font-size: 15px;
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92);
+}
+
+.contact-input textarea{
+  width: 50%;
+  height: 100px;
+  font-family: "Playfair Display";
+  color: rgb(92, 92, 92); 
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(175, 175, 175);
+  border-color: rgb(175, 175, 175);
+  resize: none;
+}
+
+.contact-input input[type=submit]{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(92, 92, 92); 
+  border: 1px solid rgb(175, 175, 175);
+  border-color: rgb(175, 175, 175);
+  border-radius: 25px;
+  color: white;
+  
+}
+
