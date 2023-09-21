@@ -250,7 +250,7 @@
   resize: none;
 }
 
-.contact-input input[type=submit]{
+.contact-input button{
   width: 100px;
   height: 40px;
   background-color: rgb(92, 92, 92); 
