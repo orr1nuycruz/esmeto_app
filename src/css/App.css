@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  font-family: "Playfair Display";
+}
+
+/* Header */
+.navBar {
+  font-family: '"Square Sans Text VF","Square Sans Text",helvetica,arial,sans-serif';
+  width: 100%;
+  height: 70px;
+}
+
+.navItems {
+  margin: auto;
+}
+
+.nav-Item {
+  font-size: 20px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-Item a {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.nav-Item:hover {
+  border-bottom: 1px solid black;
+}
+.nav-Item a:hover {
+  color: black;
+}
+
+.logoDiv {
+  width: 100%;
+}
+
+.logoImg {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+/* Home Content */
+
+
+/* about page */
+
+
+
+/* contact us */
+
+

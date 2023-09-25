@@ -1,4 +1,4 @@
-import "../App.css";
+import "../css/App.css";
 import Header from "./nav/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/home";

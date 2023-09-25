@@ -1,0 +1,118 @@
+.home-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 3px solid green; */
+  }
+  
+  .home-title {
+    font-family: "Playfair Display";
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
+  }
+  
+  .home-image-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin-bottom: 50px;
+    /* border: 3px solid green; */
+  }
+  
+  .home-image-item {
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .home-image-background {
+    margin: auto;
+    background-size: cover;
+    background-position: center 90%;
+    background-image: url("../../images/testImage.png");
+    height: 400px;
+    width: 550px;
+    border-radius: 25px;
+  }
+  
+  .image-wrapper {
+    opacity: 0.2;
+    background-color: black;
+    position: absolute;
+    height: 400px;
+    width: 550px;
+    border-radius: 25px;
+    transition: opacity 0.8s;
+  }
+  
+  .image-wrapper:hover {
+    opacity: 0.8;
+  }
+  
+  .image-wrapper-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .image-wrapper-text {
+    font-family: "Playfair Display";
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 35%;
+    text-align: center;
+  }
+  
+  .home-thankyoucard {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  
+  .home-thankyoucard-image {
+    margin: auto;
+    background-size: cover;
+    background-image: url("../../images/thankyoucard.png");
+    height: 500px;
+    width: 700px;
+  }
+  
+  .home-thankyoucard-title {
+    margin: auto;
+    color: rgb(92, 92, 92);
+    font-family: "Playfair Display";
+  }
+  
+  .deals-title {
+    font-family: "Playfair Display";
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .deals-content {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  
+  .deals-image {
+    margin: auto;
+    background-size: cover;
+    background-image: url("../../images/totebag.png");
+    height: 600px;
+    width: 550px;
+    border-radius: 25px;
+  }
+  
+  .deals-content-text {
+    width:80%;
+    margin: auto;
+    color: rgb(92, 92, 92);
+    font-family: "Playfair Display";
+  }
